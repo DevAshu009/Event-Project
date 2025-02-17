@@ -5,6 +5,10 @@ import 'react-calendar/dist/Calendar.css';
 const Home = () => {
   const [date, setDate] = useState(new Date());
   console.log("Date:", date);
+  useEffect(() => {
+  
+  }, [])
+  
   return (
 
     <div className="p-4 bg-pink-50 h-screen">
